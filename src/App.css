@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+[data-theme="light"] {
+  --background-color: rgb(77, 129, 232);
+}
+
+[data-theme="dark"] {
+  --background-color: rgb(16, 16, 70);
+}
+
+body {
+  background-color: var(--background-color);
+}
